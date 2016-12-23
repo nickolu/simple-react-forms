@@ -1,0 +1,16 @@
+{
+  "name": "simple-react-forms",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.8.0",
+    "simple-react-utilities": "^1.0.0"
+  },
+  "devDependencies": {}
+}
