@@ -132,14 +132,6 @@ export const getAbilityScoreModifier = function(num) {
 }
 
 /**
- * renders a json object as a string in the DOM
- * @param  {object} data [JSON object to render]
- */
-export const renderJSON = function (data) {
-  return <div>{JSON.stringify(data)}</div>
-}
-
-/**
  * takes an array of objects and sorts them by a specified property
  * @param  {array} objects [list of objects]
  * @return {array}         [list of objects, sorted by given property]
