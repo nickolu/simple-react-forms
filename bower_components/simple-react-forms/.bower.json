@@ -1,0 +1,14 @@
+{
+  "name": "simple-react-forms",
+  "homepage": "https://github.com/nickolusroy/simple-react-forms",
+  "_release": "5cb3c9808b",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "5cb3c9808bb39cf64806a247e26c007649f43c31"
+  },
+  "_source": "https://github.com/nickolusroy/simple-react-forms.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/nickolusroy/simple-react-forms.git",
+  "_direct": true
+}
