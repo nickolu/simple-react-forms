@@ -3,6 +3,7 @@
 # dependencies
 node_modules/*
 !node_modules/simple-react-utilities
+bower_components
 
 # testing
 coverage
