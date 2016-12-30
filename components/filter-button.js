@@ -1,5 +1,5 @@
 import React from 'react';
-import * as utilities from "../utilities.js";
+import * as utilities from "../node_modules/simple-react-utilities/utilities.js";
 import { SubmitButton } from '../form-fields/submit-button.js';
 
 /**
