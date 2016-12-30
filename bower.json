@@ -1,0 +1,21 @@
+{
+  "name": "simple-react-forms",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "authors": [
+    "Cunningham",
+    "Nick <nick_cunningham@intuit.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/nickolusroy/simple-react-forms",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "simple-react-utilities": "https://github.com/nickolusroy/simple-react-utilities.git"
+  }
+}
