@@ -4,7 +4,7 @@ export class RadioGroup extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      selection : 'Dwarf'
+      selection : ''
     };
 
     this.onChange = this.onChange.bind(this);
@@ -19,6 +19,7 @@ export class RadioGroup extends React.Component {
     
     this.props.onUpdate(e);
   }
+
   render() {
 
     return  <div className={this.props.groupName}>
@@ -31,5 +32,6 @@ export class RadioGroup extends React.Component {
                   </label></div>
               )}
             </div>
+            
   }
 }

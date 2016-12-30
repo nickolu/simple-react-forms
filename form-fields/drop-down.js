@@ -3,10 +3,7 @@ import React from 'react';
 export class DropDown extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      selection : '',
-      charData : this.props.charData
-    };
+    this.state = {};
 
     this.onChange = this.onChange.bind(this);
   };
@@ -21,6 +18,7 @@ export class DropDown extends React.Component {
 
   render() {
     let concatClasses = this.props.className+" drop-down form-field"
+    
     function getChoiceLabel(choices) {
       if (choices.label) {
         return choices.label;
@@ -29,6 +27,7 @@ export class DropDown extends React.Component {
       }
       return "";
     }
+
     return  <div className={concatClasses}>
               <select name={this.props.name} value={this.state.selection} onChange={this.onChange}>
                 <option value="" defaultValue="selected">{this.props.label}</option>
