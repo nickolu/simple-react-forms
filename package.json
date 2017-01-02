@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "bower": "^1.8.0",
-    "simple-react-utilities": "https://github.com/nickolusroy/simple-react-utilities.git#unit-testing-setup"
+    "simple-react-utilities": "https://github.com/nickolusroy/simple-react-utilities.git#master"
   }
 }
