@@ -295,10 +295,10 @@ var ncUtilities = {
       operator = "-";
     }
     return operator+""+Math.abs(modifier);
-  }
+  }  
+}
 
-  
-
-  
+if (module) {
+  module.exports = ncUtilities
 }
 
