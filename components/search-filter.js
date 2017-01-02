@@ -1,4 +1,5 @@
-import React from 'react';
+var React = require('react');
+
 import { TextInput } from '../form-fields/text-input.js';
 import { CheckBoxGroup } from '../form-fields/checkbox-group.js';
 import { ShowHideButton } from './show-hide-button.js';
