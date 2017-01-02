@@ -1,5 +1,5 @@
 import React from 'react';
-import * as utilities from "../node_modules/simple-react-utilities/utilities.js";
+import * as utilities from "../node_modules/simple-react-utilities/js/utilities.js";
 import { SubmitButton } from './submit-button.js';
 
 export class ButtonGroup extends React.Component {
