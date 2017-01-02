@@ -1,4 +1,4 @@
-import React from 'react';
+var React = require('react');
 
 export class RadioGroup extends React.Component {
   constructor(props) {

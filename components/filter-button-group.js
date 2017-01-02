@@ -1,5 +1,5 @@
-import React from 'react';
-import * as utilities from "../node_modules/simple-react-utilities/utilities.js";
+var React = require('react');
+var utilities = require('../node_modules/simple-react-utilities/utilities.js');
 import { ButtonGroup } from '../form-fields/button-group.js';
 
 /**

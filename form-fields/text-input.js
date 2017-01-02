@@ -1,4 +1,4 @@
-import React from 'react';
+var React = require('react');
 
 export class TextInput extends React.Component {
   constructor(props) {

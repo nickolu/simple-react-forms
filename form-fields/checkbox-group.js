@@ -1,4 +1,4 @@
-import React from 'react';
+var React = require('react');
 
 export class CheckBoxGroup extends React.Component {
   constructor(props) {
